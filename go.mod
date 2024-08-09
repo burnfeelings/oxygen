@@ -1,4 +1,4 @@
-module github.com/oxygenpay/oxygen
+module XJUZI
 
 go 1.20
 

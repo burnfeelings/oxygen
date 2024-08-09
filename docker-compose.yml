@@ -1,5 +1,7 @@
 version: '3.8'
 services:
+oxygen:
+    env_file: [ oxygen.env ]
   postgres:
     image: postgres:15-alpine
     command: postgres -c log_statement=all

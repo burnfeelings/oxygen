@@ -17,10 +17,10 @@ linters-settings:
     settings:
       printf:
         funcs:
-          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Infof
-          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Warnf
-          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Errorf
-          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Fatalf
+          - (XJUZI/pkg/logutils.Log).Infof
+          - (XJUZI/pkg/logutils.Log).Warnf
+          - (XJUZI/pkg/logutils.Log).Errorf
+          - (XJUZI/pkg/logutils.Log).Fatalf
   gocyclo:
     min-complexity: 15
   goconst:
@@ -29,7 +29,7 @@ linters-settings:
   misspell:
     locale: US
   goimports:
-    local-prefixes: github.com/golangci/golangci-lint
+    local-prefixes: XJUZI
   gocritic:
     enabled-tags:
       - diagnostic
